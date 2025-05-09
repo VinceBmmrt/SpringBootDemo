@@ -1,7 +1,6 @@
-package com.telusko.app;
+package com.telusko.app.model;
 
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 
