@@ -1,6 +1,6 @@
 package com.telusko.app.service;
 
-import com.telusko.app.LaptopRepository;
+import com.telusko.app.repo.LaptopRepository;
 import com.telusko.app.model.Laptop;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -15,7 +15,7 @@ public class LaptopService {
         repo.save(lap);
     }
 
-    public boolean isGoodForProgramming(Laptop lap){
-return true;
+    public boolean isGoodForProgramming(Laptop lap) {
+        return true;
     }
 }
